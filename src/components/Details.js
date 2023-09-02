@@ -24,11 +24,11 @@ const Display=()=>{
       return <div>Loading...</div>;
     }
   
-    if (error) {
+    else if (error) {
       return <div>An error occurred: {error.message}</div>;
     }
   
-    if (!data) {
+    else if (!data) {
       return <div>No data found</div>;
     }
   
