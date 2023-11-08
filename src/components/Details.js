@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import axios from "axios";
 
-const Display=()=>{
+const Details=()=>{
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
@@ -39,4 +39,4 @@ const Display=()=>{
       </div>
     );
 }
-export default Display;
+export default Details;

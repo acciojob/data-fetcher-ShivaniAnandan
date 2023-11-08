@@ -5,7 +5,7 @@ import Details from "./Details";
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+        <Details/>
     </div>
   )
 }
